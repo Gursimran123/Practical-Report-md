@@ -958,5 +958,99 @@ enter name d
 enter name e
  enter marks 5
 ```
- 
-
+# PROGRAM No 29:-PROGRAM TO DISPLAY ADDRESS OF A VARIABLE USING POINTERS
+```C
+#include <stdio.h>
+void main()
+{
+        int n,*p;
+        p=&n;
+        n=100;
+        printf("using variable n:\n");
+        printf("value of n:%d\n address of n %u\n",n,&n);
+        printf("using pointer n: \n");
+        printf("value of n:%d\n address of n %u\n",*p,p);
+}
+```
+OUTPUT
+```C
+using variable n:
+value of n:100
+ address of n 804324724
+using pointer n: 
+value of n:100
+ address of n 804324724
+ ```
+# PROGRAM No 30:-PROGRAM TO PRINT ADDRESS OF A VARIABLE USING POINTERS
+```C
+#include <stdio.h>
+void main()
+{                                                                                       
+       int a[10],*p,i;
+       p=&a[0];
+       printf("enter the elements of array\n");
+       for(i=0;i<=9;i++)
+       {
+               printf("enter elements %02d:",i+1);
+               scanf("%d",p+i);
+       }
+       printf("entered elements are:\n");
+       printf("address:\t \t value\n");
+       for (i=0;i<=9;i++)
+       printf("%08x\t %03d\n",(p+i),*(p+i));
+}
+```
+OUTPUT
+```C
+enter the elements of array
+enter elements 01:12
+enter elements 02:13
+enter elements 03:1615
+enter elements 04:16
+enter elements 05:19 
+enter elements 06:18
+enter elements 07:14
+enter elements 08:12
+enter elements 09:17
+enter elements 10:16
+entered elements are:
+address:         value
+85c17510         012
+85c17514         013
+85c17518         1615
+85c1751c         016
+85c17520         019
+85c17524         018
+85c17528         014
+85c1752c         012
+85c17530         017
+85c17534         016
+```
+# PROGRAM No 31:-PROGRAM TO PRINT THE MULTIPLICATION TABLE OF 5
+```C
+#include <stdio.h>
+void main()
+{
+        int i;
+        int a=5;
+        printf("table of 5\n");
+        for(i=1;i<=10;i++)
+        {
+                printf(" %d * %d = %d \n",a,i,a*i);
+        }
+}
+```
+OUTPUT
+```C
+table of 5
+ 5 * 1 = 5 
+ 5 * 2 = 10 
+ 5 * 3 = 15 
+ 5 * 4 = 20 
+ 5 * 5 = 25 
+ 5 * 6 = 30 
+ 5 * 7 = 35 
+ 5 * 8 = 40 
+ 5 * 9 = 45 
+ 5 * 10 = 50
+```
