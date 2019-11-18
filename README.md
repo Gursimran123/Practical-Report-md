@@ -1,41 +1,4 @@
-
-Skip to content
-Pull requests
-Issues
-Marketplace
-Explore
-@Gursimran123
-
-1
-0
-
-    0
-
-anurag2002/PRACTICAL-REPORT.md
-Code
-Issues 0
-Pull requests 0
-Projects 0
-Wiki
-Security
-Insights
-No description, website, or topics provided.
-
-31 commits
-1 branch
-0 releases
-
-    1 contributor
-
-@anurag2002
-anurag2002 Update README.md
-Latest commit
-2b6be4f
-22 hours ago
-Type 	Name 	Latest commit message 	Commit time
-	README.md 	Update README.md 	22 hours ago
-README.md
-PROGRAMMING FOR PROBLEM SOLVING ESC-18105
+# PROGRAMMING FOR PROBLEM SOLVING ESC-18105
 NAME-ANURAG PANDEY
 ROLL NO-1915010
 BRANCH-COMPUTER SCIENCE
