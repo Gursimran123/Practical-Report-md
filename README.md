@@ -23,17 +23,15 @@ Welcome To Budding Engineers
 #include <stdio.h>  
 int main()  
 {
-    puts("Principal\nPanth Rattan Shiri Gurcharan Singh Tohra Complex\nGuru Nanak Dev Engineering College\nGill Park\nLudhiana -   141006\nIndia");  
+    puts("HIG 304\nFlat No-402 Rudra Vatika Appartment\nRatan lal nagar\nKanpur-208022");  
 }  
 ```
 OUTPUT
 ```C
- Principal  
- Panth Rattan Shiri Gurcharan Singh Tohra Complex  
- Guru Nanak Dev Engineering College  
- Gill Park  
- Ludhiana - 141006  
- India  
+ HIG 304
+ Flat No-402 Rudra Vatika Appartment
+ Ratan lal nagar
+ Kanpur
 ```
 # PROGRAM No 3:-PROGRAM TO FIND THE SUM OF TWO NUMBERS
 ```C
