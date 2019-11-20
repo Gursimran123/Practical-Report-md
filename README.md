@@ -3,9 +3,7 @@
 ##  *ROLL NO-1915028*
 ##  *BRANCH-COMPUTER SCIENCE*
 ##  *SECTION-CSE(A1)*
-
 ##  DEPARTMENT OF COMPUTER SCIENCE & ENGINEERING
-##  GURU NANAK DEV ENGINEERING COLLEGE,LUDHIANA
 # PROGRAM No 1:-PROGRAM TO PRINT WELCOME MESSAGE
 ```C
   #include <stdio.h>  
@@ -1025,32 +1023,4 @@ address:         value
 85c1752c         012
 85c17530         017
 85c17534         016
-```
-# PROGRAM No 31:-PROGRAM TO PRINT THE MULTIPLICATION TABLE OF 5
-```C
-#include <stdio.h>
-void main()
-{
-        int i;
-        int a=5;
-        printf("table of 5\n");
-        for(i=1;i<=10;i++)
-        {
-                printf(" %d * %d = %d \n",a,i,a*i);
-        }
-}
-```
-OUTPUT
-```C
-table of 5
- 5 * 1 = 5 
- 5 * 2 = 10 
- 5 * 3 = 15 
- 5 * 4 = 20 
- 5 * 5 = 25 
- 5 * 6 = 30 
- 5 * 7 = 35 
- 5 * 8 = 40 
- 5 * 9 = 45 
- 5 * 10 = 50
 ```
